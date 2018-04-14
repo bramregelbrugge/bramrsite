@@ -1,0 +1,24 @@
+.center-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  .name{
+    font-size: 2rem;
+    transition: font-size .1s;
+    cursor: pointer;
+    }
+
+  .name:hover{
+    font-size: 2.5rem;
+    transition: font-size .1s;
+  }
+
+  // .grow{
+  //   font-size: 2.5rem;
+  //   transition: font-size 5s;
+  // }
+}
